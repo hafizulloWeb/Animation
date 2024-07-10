@@ -1,0 +1,110 @@
+.container {
+    max-width: 250px;
+    height:50px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius:px ;
+    border: 10px;
+    background-color: black;
+    box-shadow: 1px 1px 10px black;
+   margin: 0 auto;
+}
+.insta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    animation: insta 2s infinite ;
+    position: relative;
+    left: -75px;
+    top: 6px;
+}
+.black {
+    margin-left: 100px;
+    margin-top: -20px;
+}
+
+.black {
+    display: flex;
+gap: 10px;
+}
+.a1 {
+    width: 40px;
+  
+}
+
+
+@keyframes insta {
+    0% {
+        transform: rotate(0deg) rotate(0deg);
+        
+        }
+
+        100% {
+            transform: rotatey(0deg)  rotateY(360deg);
+        }
+    }
+  
+
+  
+.boxs {
+    font-size: 20px;
+    color: rgb(240, 158, 87);
+}
+.black {
+    
+    display: flex;
+    gap: 5px;
+   position: relative;
+   top: -5px;
+   left: 10px;
+ }
+
+ 
+.boxs {
+  
+    animation: last 2s linear infinite;
+}
+.box1 {
+    animation-delay: 2s;
+       
+    transform: scale(1.01);
+    transition: all 1s;
+}
+.box2 {
+    animation-delay: .2s;
+    }
+    .box3 {
+        animation-delay: .4s;
+    }
+.box4 {
+    animation-delay: .5s;
+
+}
+.box5 {
+    animation-delay: .6s;
+
+}
+.box6 {
+    animation-delay: .7s;
+
+}
+
+.box7 {
+    animation-delay: .8s;
+
+}
+    
+@keyframes last{
+    0%{
+        transform: scale(1.01);
+            }
+    20%{
+        transform: scale(1.5);
+    }
+    30%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
